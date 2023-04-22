@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MU">
+      <UniqueIdentifier>{9ecafa47-5cf4-45e1-a4bb-717a228b8a4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MU\GameShop">
+      <UniqueIdentifier>{b8b17756-11f8-4c18-a059-3365ebd9f64c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MU\GameShop\Client">
+      <UniqueIdentifier>{7583c665-86e8-4d9b-923c-9cc802ce7265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MU\GameShop\Client\Core">
+      <UniqueIdentifier>{0b23f71b-f116-4bf9-8b25-4398bad2f1a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External Object">
+      <UniqueIdentifier>{b7037f47-1839-4b05-aa50-0300a4cd1c5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External Object\Leaf">
+      <UniqueIdentifier>{d1ef7284-4a2d-4176-8926-a0f71b9d4364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MU\GameShop\Client\Common">
+      <UniqueIdentifier>{bead93c7-da9a-444e-9211-73f04c1a0c4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External Object\time">
+      <UniqueIdentifier>{bc63d06a-fd47-42b5-842b-aad60077c7d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NewFilter1">
+      <UniqueIdentifier>{2e72adf2-3c8d-4b31-84ef-6ecb514bc5c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MU\GameShop\Client\Header Files">
+      <UniqueIdentifier>{cedc6621-d710-42b9-b808-223553a8b61c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(SolutionDir)source\WinMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\ExternalObject\Leaf\ExceptionHandler.cpp">
+      <Filter>External Object\Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="source\StdAfx.cpp">
+      <Filter>MU\GameShop\Client\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\ExternalObject\Leaf\callstackdmp.cpp">
+      <Filter>External Object\Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\ExternalObject\Leaf\checkintegrity.cpp">
+      <Filter>External Object\Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\ExternalObject\Leaf\html_log.cpp">
+      <Filter>External Object\Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\ExternalObject\Leaf\stdleaf.cpp">
+      <Filter>External Object\Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\ExternalObject\Leaf\sysinfo.cpp">
+      <Filter>External Object\Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\ExternalObject\Leaf\xortrans.cpp">
+      <Filter>External Object\Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\ExternalObject\Leaf\xstreambuf.cpp">
+      <Filter>External Object\Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Time\CTimCheck.cpp">
+      <Filter>External Object\time</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Time\Timer.cpp">
+      <Filter>External Object\time</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\ExternalObject\Leaf\peimage.cpp">
+      <Filter>External Object\Leaf</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libraries\ExternalObject\Leaf\ExceptionHandler.h">
+      <Filter>External Object\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="source\stdafx.h">
+      <Filter>MU\GameShop\Client\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\ExternalObject\Leaf\callstackdmp.h">
+      <Filter>External Object\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\ExternalObject\Leaf\checkintegrity.h">
+      <Filter>External Object\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\ExternalObject\Leaf\constants.h">
+      <Filter>External Object\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\ExternalObject\Leaf\html_log.h">
+      <Filter>External Object\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\ExternalObject\Leaf\intrinsics.h">
+      <Filter>External Object\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\ExternalObject\Leaf\peimage.h">
+      <Filter>External Object\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\ExternalObject\Leaf\platform.h">
+      <Filter>External Object\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\ExternalObject\Leaf\rdtsc.h">
+      <Filter>External Object\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\ExternalObject\Leaf\regkey.h">
+      <Filter>External Object\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\ExternalObject\Leaf\stdleaf.h">
+      <Filter>External Object\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\ExternalObject\Leaf\sysinfo.h">
+      <Filter>External Object\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\ExternalObject\Leaf\xortrans.h">
+      <Filter>External Object\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\ExternalObject\Leaf\xstreambuf.h">
+      <Filter>External Object\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Time\CTimCheck.h">
+      <Filter>External Object\time</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Time\Timer.h">
+      <Filter>External Object\time</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Singleton.h">
+      <Filter>MU\GameShop\Client\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
